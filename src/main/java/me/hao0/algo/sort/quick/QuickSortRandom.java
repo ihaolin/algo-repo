@@ -1,5 +1,6 @@
 package me.hao0.algo.sort.quick;
 
+import me.hao0.algo.utils.Maths;
 import me.hao0.algo.utils.Printer;
 
 /**
@@ -39,7 +40,7 @@ public class QuickSortRandom {
 	 * @return 划分完后，基准数所在索引
 	 */
 	private static int randomPartition(int[] arr, int p, int r){
-		int index = Math.random(p, r);
+		int index = Maths.random(p, r);
 		//int temp = arr[index];
 		//arr[index] = arr[r];
 		//arr[r] = temp;

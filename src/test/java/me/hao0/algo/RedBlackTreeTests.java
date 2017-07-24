@@ -1,5 +1,7 @@
-package me.hao0.algo.tree;
+package me.hao0.algo;
 
+import me.hao0.algo.tree.RedBlackTree;
+import me.hao0.algo.tree.Student;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -24,7 +26,7 @@ import org.junit.Test;
  * 
  */
 public class RedBlackTreeTests {
-	private static RedBlackTree<Student> students 
+	private static RedBlackTree<Student> students
 						= new RedBlackTree<Student>();
 	@Before
 	public void init(){

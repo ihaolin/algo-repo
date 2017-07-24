@@ -2,7 +2,7 @@ package me.hao0.algo.utils;
 
 import java.util.Random;
 
-public class Math {
+public class Maths {
 	private static Random random = new Random();
 	
 	/**

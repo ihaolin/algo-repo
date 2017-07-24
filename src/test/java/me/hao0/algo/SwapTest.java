@@ -1,4 +1,4 @@
-package me.hao0.algo.test;
+package me.hao0.algo;
 
 public class SwapTest {
 	public static void main(String[] args) {

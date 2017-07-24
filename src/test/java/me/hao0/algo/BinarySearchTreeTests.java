@@ -1,5 +1,7 @@
-package me.hao0.algo.tree;
+package me.hao0.algo;
 
+import me.hao0.algo.tree.BinarySearchTree;
+import me.hao0.algo.tree.Student;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,7 +15,7 @@ import org.junit.Test;
  * stu5  stu7   stua
  */
 public class BinarySearchTreeTests {
-	private static BinarySearchTree<Student> students 
+	private static BinarySearchTree<Student> students
 						= new BinarySearchTree<Student>();
 	@Before
 	public void init(){
