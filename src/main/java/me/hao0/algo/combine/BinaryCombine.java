@@ -1,5 +1,8 @@
 package me.hao0.algo.combine;
 
+/**
+ * 输出数组a的全排列(不可重复取)，利用二进制位
+ */
 public class BinaryCombine {
 
     public static void main(String[] args) {
