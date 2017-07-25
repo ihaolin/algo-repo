@@ -13,10 +13,14 @@ public class SelectableCombine {
   }
 
   public void runPermutation(int[] a, int n) {
+
     if (null == a || a.length == 0 || n <= 0 || n > a.length) {
       return;
     }
-    int[] b = new int[n];// 辅助空间，保存待输出组合数
+
+    // 辅助空间，保存待输出组合数
+    int[] b = new int[n];
+
     getCombination(a, n, 0, b, 0);
   }
 

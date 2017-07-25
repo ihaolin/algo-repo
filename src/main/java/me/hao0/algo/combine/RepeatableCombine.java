@@ -32,7 +32,9 @@ public class RepeatableCombine {
 
   public static void main(String[] args) {
     RepeatableCombine robot = new RepeatableCombine();
-    int[] a = {1, 2, 3};
+    int[] a = {1, 2, 3, 4, 5};
+    long start = System.currentTimeMillis();
     robot.runPermutation(a);
+    System.out.println("cost: " + (System.currentTimeMillis() - start));
   }
 }

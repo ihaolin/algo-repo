@@ -7,7 +7,9 @@ public class BinaryCombine {
 
     public static void main(String[] args) {
 
-        String str[] = {"A", "B", "C", "D", "E"};
+        long start = System.currentTimeMillis();
+
+        String str[] = {"A", "B", "C", "D", "E", "1", "2", "3", "4"};
 
         // 5
         int nCnt = str.length;
@@ -27,5 +29,6 @@ public class BinaryCombine {
             System.out.println("");
         }
 
+        System.out.println("cost: " + (System.currentTimeMillis() - start));
     }
 }
