@@ -1,6 +1,6 @@
 package me.hao0.algo.combine;
 
-public class SimpleCombine {
+public class BinaryCombine {
 
     public static void main(String[] args) {
 
